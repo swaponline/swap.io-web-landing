@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>Swap.io</title>
+
+  <!-- Meta-info -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <meta name="Description" content="Swap.io is a non-custodial multi-currency wallet with cross-chain exchange. The exchange is based on modified atomic swaps using HTLC contracts and staking protocol with semi Automatic Market Making"> 
+  <meta name="Keywords" content="Application for change Cryptocurrency: Bitcoin, BTC, Ethereum, ETH, Dogecoin, DOGE, Ripple, XRP, Tether, USDT">
+
+  <!-- Assets -->
   <link rel="icon" href="./img/favicon.ico"  type="image/x-icon">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <meta name="Description" content="Swap.io is a non-custodial multi-currency wallet with cross-chain exchange. The exchange is based on modified atomic swaps using HTLC contracts and staking protocol with semi Automatic Market Making"> 
-  <meta name="Keywords" content="Application for change Cryptocurrency: Bitcoin, BTC, Ethereum, ETH, Dogecoin, DOGE, Ripple, XRP, Tether, USDT">
-  <title>Swap.io</title>
 </head>
 <body>
   <div class="main" id="main">
+
+    <!-- Header -->
     <header class="header">
       <div class="header__logo">
         <img src="./img/logo.svg"  class="header__logo-img" alt="logo">
         <span class="header__logo-text">Swap.io</span>
       </div>
-      <button class="header__button button">Early access</button>
+      <a href="#subcribe-form" class="header__button">Early access</a>
     </header>
     <section class="introduction">
       <span class="introduction__hint">coming soon</span>
@@ -28,10 +35,11 @@
       </h1>
       <a class="introduction__link" target="_blank" href="https://proto.swap.io">Preview Prototype</a>
     </section>
+
+    <!-- Desktop demonstration -->
     <section class="demonstration">
       <div class="demonstration__page-wrapper" id="wrapper">
         <div class="demonstration__page">
-          <!-- <img src="./img/screen.png" alt=demonstration"> -->
           <div class="demonstration__buttons">
             <button class="demonstration__button" onclick="setBackground(1)"></button>
             <button class="demonstration__button" onclick="setBackground(2)"></button>
@@ -45,6 +53,8 @@
         <p class="about__text">The exchange is based on modified atomic swaps<br>using HTLC contracts and staking protocol with<br>semi automatic market making.</p>
       </section>
     </section>
+
+    <!-- Phone demonstration -->
     <section class="phone-demonstration">
       <div class="phone-demonstration__content">
         <img src="./img/phone.png" alt="phone-demonstration">
@@ -75,6 +85,8 @@
         </button>
       </div>
     </section>
+
+    <!-- Footer section -->
     <footer class="footer">
       <div class="footer__inner">
         <form  id="subcribe-form" class="footer__subscribe-form subscribe-form"  action="POST" onsubmit="sendEmail(event)">
