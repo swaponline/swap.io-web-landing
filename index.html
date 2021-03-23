@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 </head>
 <body>
   <div class="main" id="main">
@@ -91,15 +92,20 @@
     <!-- Footer section -->
     <footer class="footer">
       <div class="footer__inner">
-        <form  id="subcribe-form" class="footer__subscribe-form subscribe-form"  action="POST" onsubmit="sendEmail(event)">
+        <div class="footer__subscribe-form subscribe-form">
           <h3 class="subscribe-form__title">Subscribe to our newsletter to get early access</h3>
-          <div class="subscribe-form__inner">
-            <input class="subscribe-form__input" type="email" placeholder="Email">
-            <button class="subscribe-form__button">
-              <img class="subscribe-form__arrow" src="./img/arrow.svg" alt="send">
-            </button>
+          <script>
+            hbspt.forms.create({
+              region: "na1",
+              portalId: "19542193",
+              formId: "5c0b1dde-46c2-4867-9746-66c669b916e9"
+          });
+          </script>
+          <div id="mainInput" class="subscribe-form__inner">
+            Sorry, the form of e-mail sending is not available
           </div>
-        </form>
+        </div>
+
         <p class="footer__text">and join <a class="footer__telegram-link" href="www.telegram.com">telegram</a><br> group for announcements.</p>
       </div>
     </footer>

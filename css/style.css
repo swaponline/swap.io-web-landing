@@ -428,12 +428,13 @@ ul {
 .subscribe-form__inner {
   width: 90%;
   margin-top: 38px;
-  display: flex;
+  display: none;
+  font-size: 16px;
   align-items: center;
-  border-bottom: 1px solid #fff;
+  color: #fff;
   padding: 12px 1px;
 }
-.subscribe-form__input {
+/* .subscribe-form__input {
   background: #4A2DE2;
   border: none;
   width: 100%;
@@ -460,7 +461,7 @@ ul {
   height: 38px;
   min-width: 21px;
   padding: 0 3px;
-}
+} */
 @media screen and (max-width: 1920px) {
   .header {
     margin: 14px auto 0;
@@ -592,16 +593,16 @@ ul {
     font-size: 20px;
     line-height: 123%;
   }
-  .subscribe-form__inner {
+  /* .subscribe-form__inner {
     margin-top: 24px;
     padding: 10px 1px;
-  }
+  } 
   .subscribe-form__input {
     font-size: 20px;
   }
   .subscribe-form__input::placeholder {
     font-size: 20px;
-  }
+  } */
   .subscribe-form__button {
     min-height: 24px;
     height: 24px;
@@ -707,9 +708,9 @@ ul {
   .subscribe-form {
     min-height: 0;
   }
-  .subscribe-form__inner {
+  /* .subscribe-form__inner {
     width: 100%;
-  }
+  } */
 }
 @media screen and (min-width: 2561px) {
   /* .main {

@@ -1,0 +1,99 @@
+
+body {
+  font-family: 'Nunito', serif;
+  font-weight: 400;
+  font-size: 14px;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+  color: #fff;
+}
+/* форма */
+#hsForm_5c0b1dde-46c2-4867-9746-66c669b916e9 {
+  position: relative;
+  margin-top: 53px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 100%;
+}
+
+/* все лейблы формы */
+#hsForm_5c0b1dde-46c2-4867-9746-66c669b916e9 label {
+  font-family: 'Nunito', serif;
+  color: #fff;
+}
+/* скрываем лейбл */
+#hsForm_5c0b1dde-46c2-4867-9746-66c669b916e9 .hs-email label {
+  display: none;
+}
+#hsForm_5c0b1dde-46c2-4867-9746-66c669b916e9 .hs-email ul {
+  max-height: 0;
+  margin: 0 0;
+}
+/* Подсказка о сайте, который помог с формой */
+#hsForm_5c0b1dde-46c2-4867-9746-66c669b916e9 .hubspot-link__container.sproket {
+  display: none;
+}
+/* обёртка инпута */
+#hsForm_5c0b1dde-46c2-4867-9746-66c669b916e9 .hs-email {
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 12px;
+}
+/* Сам инпут */
+#hsForm_5c0b1dde-46c2-4867-9746-66c669b916e9 .input input {
+  content: "Email";
+  background: #4A2DE2;
+  border: none;
+  width: 90%;
+  padding: 0 5px;
+  outline: none;
+  color: #fff;
+  font-size: 32px;
+  line-height: 123%;
+}
+/* Placeholder Инпута */
+#hsForm_5c0b1dde-46c2-4867-9746-66c669b916e9 .input input::placeholder {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 123%;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+/* Обертка кнопки */
+#hsForm_5c0b1dde-46c2-4867-9746-66c669b916e9 .hs_submit {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* Кнопка сабмит */
+#hsForm_5c0b1dde-46c2-4867-9746-66c669b916e9 .hs_submit input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 0;
+  color: transparent;
+  background: no-repeat url("../img/arrow.svg");
+  background-position: center center;
+  height: 40px;
+  width: 38px;
+  border: none;
+  outline: none;
+}
+#hsForm_5c0b1dde-46c2-4867-9746-66c669b916e9:not(.desktop) {
+  margin-top: 24px;
+}
+#hsForm_5c0b1dde-46c2-4867-9746-66c669b916e9:not(.desktop) .input input {
+  font-size: 20px;
+}
+#hsForm_5c0b1dde-46c2-4867-9746-66c669b916e9:not(.desktop) .input input::placeholder {
+  font-size: 20px;
+}
+#hsForm_5c0b1dde-46c2-4867-9746-66c669b916e9:not(.desktop) .hs-email {
+  padding-bottom: 10px;
+}
